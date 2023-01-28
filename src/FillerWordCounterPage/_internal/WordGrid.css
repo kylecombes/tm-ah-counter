@@ -1,0 +1,22 @@
+.WordGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+  margin: 12px;
+}
+
+.WordGrid__word {
+  position: relative;
+  padding: 12px;
+}
+
+.WordGrid__word-count {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: medium;
+}
+
+.WordGrid__word-name {
+  font-size: 1.5em;
+}

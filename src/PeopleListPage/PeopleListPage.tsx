@@ -18,10 +18,11 @@ export const PeopleListPage = () => {
         <input
           onChange={(e) => setNewPersonName(e.target.value)}
           onKeyDown={(e) => {
-            if (e.code === 'Enter') {
+            if (e.key === 'Enter') {
               addNewPerson();
             }
           }}
+          autoCapitalize="words"
           value={newPersonName}
         />
         <button onClick={addNewPerson}>Add Person</button>

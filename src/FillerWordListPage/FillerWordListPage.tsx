@@ -17,9 +17,10 @@ export const FillerWordListPage = () => {
       <section>
         <h2>Add Filler Word</h2>
         <input
+          autoCapitalize="words"
           onChange={(e) => setNewFillerWord(e.target.value)}
           onKeyDown={(e) => {
-            if (e.code === 'Enter') {
+            if (e.key === 'Enter') {
               addNewFillerWord();
             }
           }}

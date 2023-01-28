@@ -13,3 +13,11 @@ code {
 .padded-section {
   padding: 20px 40px;
 }
+
+.top-margin {
+  margin-top: 20px;
+}
+
+.add-page-header {
+  margin: 12px;
+}

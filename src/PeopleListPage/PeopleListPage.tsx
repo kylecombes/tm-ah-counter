@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { usePeople } from '../storage/usePeople';
+import { usePeople } from '../hooks/usePeople';
 
 export const PeopleListPage = () => {
   const { people, addPerson } = usePeople();

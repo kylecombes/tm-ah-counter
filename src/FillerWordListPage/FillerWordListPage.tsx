@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { useFillerWords } from '../storage/useFillerWords';
+import { useFillerWords } from '../hooks/useFillerWords';
 
 export const FillerWordListPage = () => {
   const { addFillerWord, fillerWords } = useFillerWords();

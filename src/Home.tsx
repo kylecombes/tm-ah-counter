@@ -11,6 +11,9 @@ export function Home() {
           <NavLink to={ROUTES.PEOPLE}>People</NavLink>
         </li>
         <li>
+          <NavLink to={ROUTES.WORD_COUNTER}>Count Filler Words</NavLink>
+        </li>
+        <li>
           <NavLink to={ROUTES.WORDS}>Filler Words</NavLink>
         </li>
       </ul>

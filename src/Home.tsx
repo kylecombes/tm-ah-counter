@@ -6,7 +6,14 @@ import { ROUTES } from './router';
 export function Home() {
   return (
     <div className="Home">
-      <NavLink to={ROUTES.PEOPLE}>People</NavLink>
+      <ul>
+        <li>
+          <NavLink to={ROUTES.PEOPLE}>People</NavLink>
+        </li>
+        <li>
+          <NavLink to={ROUTES.WORDS}>Filler Words</NavLink>
+        </li>
+      </ul>
     </div>
   );
 }
